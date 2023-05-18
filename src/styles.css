@@ -2,7 +2,7 @@ body {
   background: #1d1a39;
   font-family: roboto;
   margin: 80px auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 :root {
@@ -133,7 +133,7 @@ p {
 .photo-container {
   display: flex;
   width: 100%;
-  margin: 50px 5px;
+  margin: 50px 0px;
 }
 
 .email-link {
