@@ -1,0 +1,150 @@
+body {
+  background: #1d1a39;
+  font-family: roboto;
+  margin: 80px auto;
+  max-width: 1200px;
+}
+
+:root {
+  --primary-color: #f5d7db;
+  --secondary-color: #bd83b8;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 86px;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 54px;
+  color: black;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+  opacity: 0.9;
+  display: block;
+  margin-top: 10px;
+}
+
+.coder-information {
+  margin-top: 50px;
+}
+
+.job-title {
+  color: var(--secondary-color);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.about {
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  font-weight: 600;
+}
+
+.portfolio-photo {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(243, 225, 225);
+}
+
+.yoga-container,
+.yogurt-container,
+.weather-container {
+  margin: 95px 20px;
+  padding: 10px;
+}
+
+.yoga-app,
+.yogurt-app,
+.weather-app {
+  display: block;
+  font-size: 32px;
+  color: rgb(243, 225, 225);
+  font-weight: 800;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.yogaApp-link,
+.yogurtApp-link,
+.weatherApp-link {
+  display: block;
+  color: #451952;
+  background: #f8e4d8;
+  text-decoration: none;
+  padding: 15px 10px;
+  border-radius: 15px;
+  font-weight: 500;
+  max-width: 150px;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aboutMe {
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(243, 225, 225);
+}
+
+.photo-container {
+  display: flex;
+  width: 100%;
+  margin: 50px 5px;
+}
+
+.email-link {
+  color: var(--primary-color);
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
