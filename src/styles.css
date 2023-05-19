@@ -148,3 +148,46 @@ p {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .yoga-container,
+  .yogurt-container,
+  .weather-container {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+  }
+
+  .yoga-app,
+  .yogurt-app,
+  .weather-app {
+    text-align: center;
+  }
+
+  .yogaApp-link,
+  .yogurtApp-link,
+  .weatherApp-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+  }
+}
