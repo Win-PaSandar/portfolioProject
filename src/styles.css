@@ -98,7 +98,8 @@ p {
 .yogurt-app,
 .weather-app {
   display: block;
-  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
   color: rgb(243, 225, 225);
   font-weight: 800;
   text-align: justify;
