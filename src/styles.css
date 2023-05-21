@@ -191,6 +191,7 @@ p {
   .yogurt-app,
   .weather-app {
     text-align: center;
+    font-size: 22px;
   }
 
   .yogaApp-link,
