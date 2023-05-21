@@ -201,4 +201,8 @@ p {
     text-align: center;
     font-size: 12px;
   }
+
+  .media-icons {
+    margin-top: 15px;
+  }
 }
