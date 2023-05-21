@@ -2,7 +2,7 @@ body {
   background: #1d1a39;
   font-family: "Roboto", sans-serif;
   margin: 80px auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 :root {
@@ -76,6 +76,12 @@ h3 {
   margin-top: 60px;
 }
 
+.name {
+  font-family: "Playfair Display", serif;
+  color: var(--secondary-color);
+  font-size: 28px;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -118,9 +124,7 @@ p {
 }
 
 .aboutMe {
-  display: block;
   margin: 30px auto;
-  text-align: center;
   font-size: 18px;
   line-height: 1.5;
   color: rgb(243, 225, 225);
@@ -134,15 +138,17 @@ p {
 
 .email-link {
   color: var(--primary-color);
-  font-size: 28px;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+  font-size: 24px;
+  margin: 0 auto;
 }
 
 .email-link:hover {
   text-decoration: none;
   cursor: pointer;
+}
+
+.email-icon {
+  font-size: 32px;
 }
 
 @media (max-width: 576px) {
@@ -161,6 +167,7 @@ p {
 
   p {
     font-size: 12px;
+    padding: 2px 10px;
   }
 
   .yoga-container,
