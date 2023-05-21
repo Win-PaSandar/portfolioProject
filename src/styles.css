@@ -39,8 +39,8 @@ h3 {
 }
 
 .coder-information {
-  margin: 40px auto;
-  padding: 40px 0x;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 .job-title {
@@ -55,8 +55,8 @@ h3 {
 
 .navigation-links a {
   margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
+  border-radius: 20px;
+  padding: 20px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -72,7 +72,7 @@ h3 {
   width: 250px;
   border-radius: 50%;
   display: block;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .name {
