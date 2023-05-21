@@ -135,15 +135,18 @@ p {
   margin: 50px 0px;
 }
 
-.email-link {
-  color: var(--primary-color);
+.email-link,
+.social-media {
+  color: var(--secondary-color);
   font-size: 24px;
   margin: 0 auto;
+  text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: none;
+.email-link:hover,
+.social-media:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .email-icon {
