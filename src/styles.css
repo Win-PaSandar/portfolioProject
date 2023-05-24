@@ -19,7 +19,7 @@ h3 {
 }
 
 h1 {
-  font-size: 86px;
+  font-size: 82px;
   font-weight: 600;
   color: var(--primary-color);
   font-family: "Playfair Display", serif;
@@ -43,14 +43,10 @@ h3 {
   padding: 10px;
 }
 
-.name {
-  color: var(--primary-color);
-  font-size: 50px;
-  font-family: "Playfair Display", serif;
-}
-
+.name,
 .job-title {
   color: var(--secondary-color);
+  text-align: left;
 }
 
 .navigation-links {
@@ -81,18 +77,14 @@ h3 {
   margin-top: 30px;
 }
 
-.weatherApp {
+.photo-container {
+  max-width: 800px;
   display: block;
   margin: 0 auto;
-  width: 700px;
-  height: 400px;
 }
 
 .book {
-  display: block;
-  margin: 0 auto;
-  width: 400px;
-  height: 450px;
+  margin-left: 25%;
 }
 
 .photo-title {
@@ -100,13 +92,13 @@ h3 {
   margin-top: 20px;
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
   color: var(--primary-color);
   text-align: center;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: rgb(243, 225, 225);
   text-align: justify;
@@ -148,19 +140,12 @@ ul {
   margin-top: 20px;
 }
 
-.aboutMe {
-  margin: 30px auto;
-  font-size: 22px;
-  line-height: 1.5;
-  color: rgb(243, 225, 225);
-}
-
 .aboutMe-photo {
   width: 350px;
   height: 350px;
 }
 
-.myWork {
+.myProjects-link {
   background: var(--primary-color);
   border-radius: 20px;
   padding: 20px 30px;
@@ -188,6 +173,13 @@ ul {
 }
 
 @media (max-width: 576px) {
+  body,
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
   h1 {
     font-size: 32px;
   }
@@ -202,36 +194,48 @@ ul {
 
   p {
     font-size: 12px;
-    padding: 2px 5px;
+    text-align: center;
+  }
+
+  .aboutMe-photo {
+    padding: 20px 5px;
+  }
+
+  .name,
+  .job-title {
     text-align: center;
   }
 
   ul {
     font-size: 12px;
     padding: 2px 5px;
-    text-align: center;
     list-style: none;
+    text-align: center;
   }
 
   .book-container,
   .weather-container {
     display: block;
-    text-align: center;
     padding: 10px 5px;
+    text-align: center;
   }
 
   .book-app,
   .weather-app {
-    text-align: center;
     font-size: 22px;
     margin-top: 0;
+    text-align: center;
   }
 
   .bookApp-link,
   .weatherApp-link {
     display: block;
     margin: 0 auto;
-    text-align: center;
     font-size: 12px;
+    text-align: center;
+  }
+
+  .book {
+    margin: 0 auto;
   }
 }
