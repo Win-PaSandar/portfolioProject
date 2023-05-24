@@ -143,12 +143,6 @@ p {
   text-decoration: none;
 }
 
-.photo-container {
-  display: flex;
-  width: 100%;
-  margin: 50px 0px;
-}
-
 .email-link,
 .social-media {
   color: var(--secondary-color);
