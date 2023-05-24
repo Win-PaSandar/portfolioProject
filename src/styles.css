@@ -145,9 +145,13 @@ ul {
   margin-top: 20px;
 }
 
+.aboutMe-container {
+  padding: 0 20px;
+}
+
 .aboutMe-photo {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
 .myProjects-link {
