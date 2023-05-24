@@ -19,7 +19,7 @@ h3 {
 }
 
 h1 {
-  font-size: 82px;
+  font-size: 76px;
   font-weight: 600;
   color: var(--primary-color);
   font-family: "Playfair Display", serif;
@@ -32,6 +32,7 @@ h2 {
 
 h3 {
   font-size: 34px;
+  color: var(--secondary-color);
   font-weight: bold;
   opacity: 0.9;
   display: block;
@@ -45,7 +46,6 @@ h3 {
 
 .name,
 .job-title {
-  color: var(--secondary-color);
   text-align: left;
 }
 
@@ -111,7 +111,7 @@ ul {
 
 .book-container,
 .weather-container {
-  padding: 30px 10px;
+  padding: 40px 20px;
 }
 
 .book-app,
@@ -156,8 +156,8 @@ ul {
 
 .email-link,
 .social-media {
-  color: var(--secondary-color);
-  font-size: 24px;
+  color: var(--primary-color);
+  font-size: 20px;
   margin: 0 auto;
   text-decoration: none;
 }
@@ -166,10 +166,6 @@ ul {
 .social-media:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-.email-icon {
-  font-size: 32px;
 }
 
 @media (max-width: 576px) {
@@ -216,7 +212,7 @@ ul {
   .book-container,
   .weather-container {
     display: block;
-    padding: 10px 5px;
+    padding: 15px 10px;
     text-align: center;
   }
 
