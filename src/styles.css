@@ -82,9 +82,27 @@ h3 {
 }
 
 .weatherApp {
+  display: block;
   margin: 0 auto;
-  width: 800px;
-  height: 500px;
+  width: 700px;
+  height: 400px;
+}
+
+.book {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 450px;
+}
+
+.photo-title {
+  display: block;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--primary-color);
+  text-align: center;
 }
 
 p {
