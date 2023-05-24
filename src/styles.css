@@ -106,8 +106,13 @@ h3 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
+  color: rgb(243, 225, 225);
+}
+
+ul {
+  font-size: 18px;
   color: rgb(243, 225, 225);
 }
 
