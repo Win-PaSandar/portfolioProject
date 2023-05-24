@@ -1,7 +1,7 @@
 body {
   background: #1d1a39;
   font-family: "Roboto", sans-serif;
-  margin: 80px auto;
+  margin: 70px auto;
   max-width: 1100px;
 }
 
@@ -44,6 +44,13 @@ h3 {
   margin-top: 10px;
 }
 
+h4 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: bold;
+}
+
 .coder-information {
   margin: 10px auto;
   padding: 10px;
@@ -73,6 +80,26 @@ h3 {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
   font-weight: 700;
+}
+
+.inquiry-box {
+  background: grey;
+  padding: 20px 30px;
+}
+
+.inquiry {
+  font-size: 16px;
+  color: #113f67;
+  background: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 120px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.inquiry:hover {
+  color: var(--secondary-color);
 }
 
 .portfolio-photo {
@@ -145,6 +172,16 @@ ul {
   margin-top: 20px;
 }
 
+.socialMedia-links a {
+  font-size: 28px;
+  color: var(--primary-color);
+  padding: 10px;
+}
+
+.socialMedia-links a:hover {
+  color: var(--secondary-color);
+}
+
 .aboutMe-container {
   padding: 0 20px;
 }
@@ -196,8 +233,12 @@ ul {
     font-size: 22px;
   }
 
+  h4 {
+    font-size: 20px;
+  }
+
   p {
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -240,6 +281,14 @@ ul {
   }
 
   .book {
+    margin: 0 auto;
+  }
+
+  .inquiry-box {
+    margin: 0 auto;
+  }
+
+  .inquiry {
     margin: 0 auto;
   }
 }
