@@ -52,8 +52,8 @@ h4 {
 }
 
 .coder-information {
-  margin: 30px auto;
-  padding: 30px;
+  margin: 90px auto;
+  padding: 20px;
 }
 
 .name,
@@ -111,7 +111,7 @@ h4 {
   width: 250px;
   border-radius: 50%;
   display: block;
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 .photo-container {
@@ -188,8 +188,8 @@ ul {
 }
 
 .aboutMe-container {
-  padding: 0 20px;
-  margin-bottom: 30px;
+  padding: 20px 10px;
+  margin-bottom: 40px;
 }
 
 .aboutMe-photo {
